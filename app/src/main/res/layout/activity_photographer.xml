@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorblack"
+    tools:context=".photographer">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:hint="Enter First name"
+        android:textColor="@color/colorred" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:id="@+id/lastname"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="196dp"
+        android:hint="Enter last name" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:id="@+id/emailid"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="244dp"
+        android:hint="Enter Email Id" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="292dp"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/Phonenumber"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="340dp"
+        android:hint="Enter Phone Number" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="391dp"
+        android:hint="Enter Address" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/firstname"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/butonss"
+        android:text="SIGNUP for Customer"></Button>
+
+</RelativeLayout>

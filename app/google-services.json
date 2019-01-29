@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "297252767654",
+    "firebase_url": "https://bookphotographer-2c97b.firebaseio.com",
+    "project_id": "bookphotographer-2c97b",
+    "storage_bucket": "bookphotographer-2c97b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297252767654:android:afc6edd205563a3b",
+        "android_client_info": {
+          "package_name": "com.example.somenkumar.book_photographer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297252767654-9g727nnd6k7g6laf767dkn6hhddm8edi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.somenkumar.book_photographer",
+            "certificate_hash": "ef10e509af8957ef9a351e44853a41c755187d84"
+          }
+        },
+        {
+          "client_id": "297252767654-0f5hdgajg8vkqng9etgp7rubc98uar9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmKhckk8DydGBl-I82UeRPRbXw-Cka-zU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297252767654-0f5hdgajg8vkqng9etgp7rubc98uar9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

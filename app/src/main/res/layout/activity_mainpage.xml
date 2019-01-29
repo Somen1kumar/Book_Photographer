@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+   >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightdark"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:text="Ongoing Process"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textColor="@color/grey"
+                    android:gravity="start"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginBottom="28sp"
+                    android:background="#DCDCDC"
+                    android:layout_marginStart="160sp"
+                    />
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="300sp"
+                android:layout_height="260sp"
+                android:id="@+id/layout1"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="910sp"
+                android:foregroundGravity="center"
+                android:layout_marginEnd="10sp"
+                android:layout_alignParentTop="true"
+                app:cardElevation="10sp"
+                app:cardCornerRadius="10sp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ratecardxml"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="140sp"
+                    android:text=" Select The Date "
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="#E6FFF6"
+
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="1sp"
+                    android:layout_marginBottom="460sp"
+                    android:textColor="#E6FFF6"
+                    android:text="Book shoot"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:background="@color/orange"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_marginStart="120sp"
+                    android:layout_marginTop="90sp"
+                    android:background="@drawable/aa"
+                    android:layout_marginEnd="24dp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bookshoot"
+                    android:layout_marginStart="80sp"
+                    android:layout_marginTop="170sp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/bookshootbutton"
+                    android:text="Continue "
+                    android:textColor="#E6FFF6"/>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="300sp"
+                android:layout_height="260sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="350sp"
+                android:layout_marginEnd="10sp"
+                android:foregroundGravity="center"
+                app:cardCornerRadius="10sp"
+                app:cardElevation="10sp"
+                >
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/blackgrad"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="1sp"
+                    android:layout_marginBottom="460sp"
+                    android:textColor="#E6FFF6"
+                    android:text="About Us"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:background="@color/colorblue"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_marginStart="120sp"
+                    android:layout_marginTop="90sp"
+                    android:background="@drawable/aboutus"
+                    android:layout_marginEnd="24dp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/aboutus"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90sp"
+                    android:layout_marginTop="170sp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:text="Continue "
+                    android:textColor="#E6FFF6"/>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="300sp"
+                android:layout_height="260sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="630sp"
+                android:layout_marginEnd="10sp"
+                android:foregroundGravity="center"
+                app:cardCornerRadius="10sp"
+                app:cardElevation="10sp"
+                app:cardBackgroundColor="@color/colorred"
+                >
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rate"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="1sp"
+                    android:layout_marginBottom="460sp"
+                    android:textColor="#c3c9c8"
+                    android:text="Rate Card"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:background="@color/colorred"
+                    />
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_marginStart="120sp"
+                    android:layout_marginTop="90sp"
+                    android:background="@drawable/ratecard"
+                    android:layout_marginEnd="24dp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ratecard"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90sp"
+                    android:layout_marginTop="170sp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/buttonrate"
+                    android:text="Continue "
+                    android:textColor="#949494"/>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="260sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="75sp"
+                android:layout_marginEnd="10sp"
+                android:foregroundGravity="center"
+                app:cardCornerRadius="10sp"
+                app:cardElevation="10sp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/locat"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="1sp"
+                    android:layout_marginBottom="460sp"
+                    android:textColor="#E6FFF6"
+                    android:text="Location"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:background="@color/purple"
+                    />
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_marginStart="120sp"
+                    android:layout_marginTop="90sp"
+                    android:background="@drawable/loc"
+                    android:layout_marginEnd="24dp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/location"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90sp"
+                    android:layout_marginTop="170sp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/locationbutton"
+                    android:text="Continue "
+                    android:textColor="#949494"/>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="300sp"
+                android:layout_height="260sp"
+                android:layout_marginStart="30sp"
+                android:foregroundGravity="center"
+                android:layout_marginTop="1190sp"
+                android:layout_marginEnd="10sp"
+                app:cardCornerRadius="10sp"
+                app:cardElevation="10sp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/durationxml"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="1sp"
+                    android:layout_marginBottom="460sp"
+                    android:textColor="#E6FFF6"
+                    android:text="Duration"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:background="@color/timer"
+                    />
+
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_marginStart="120sp"
+                    android:layout_marginTop="90sp"
+                    android:background="@drawable/duration"
+                    android:layout_marginEnd="24dp"
+                    />
+                <Spinner
+                    android:layout_width="130sp"
+                    android:id="@+id/duration"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80sp"
+                    android:layout_marginTop="170sp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/durationbutton"
+                    android:text="Continue "
+                    android:textColor="#ffffff"/>
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+    <Button
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:id="@+id/mainbutton"
+        android:layout_marginStart="270sp"
+        android:text="Go"
+        android:textSize="20sp"
+        android:textColor="@color/colorred"
+        android:background="@drawable/mainbutton"
+        android:layout_marginTop="470sp"
+        />
+
+
+
+
+
+</RelativeLayout>

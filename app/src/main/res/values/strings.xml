@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Drishyam</string>
+    <string-array name="Duration_in_hrs">
+        <item>One_Hr</item>
+        <item>Two_Hr</item>
+        <item>Three_Hr</item>
+        <item>Four_Hr</item>
+        <item>Five_Hr</item>
+        <item>Six_hr</item>
+        <item>Talk to us about timing</item>
+
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>
